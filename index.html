@@ -66,7 +66,33 @@
   font-weight: 200;
   font-style: normal;
 }
-
+.container.mt5{
+  display: flex;
+                    align-items: flex-start; /* Align items at the top */
+                    margin-left: 10px;
+                    font-family: 'Quicksand';
+                    width: 100%;
+                   
+}
+@media (max-width: 768px) {
+                    .container.mt5 {
+                        flex-direction: column; /* Stack items vertically on small screens */
+                        align-items: center; /* Center items */
+                    }
+        
+                    .main-content {
+                        margin-right: 0; /* Remove right margin */
+                        margin-bottom: 20px; /* Space below text */
+                        text-align: center; /* Center text */
+                        width: 100%; /* Full width on mobile */
+                    }
+        
+                    .profile-box {
+                        width: 100%; /* Full width on mobile */
+                        text-align: center; /* Center image */
+                        
+                    }
+                }
   </style>
   </head>
   <body>
@@ -108,7 +134,7 @@
              
             
             <div class="profile-box text-light d-flex justify-content-center align-items-center" 
-            style="width: 100%;height: min-content;flex: 0 0 35%;justify:center; max-width: 100%;flex-direction: column; background-color: #3e5a35; text-align: center; padding: 50px; position: relative; border-radius: 20px; height: auto; box-sizing: border-box; margin-top: 30px; margin-bottom: 80px;">
+            style="height: min-content;flex-direction: column; background-color: #3e5a35; text-align: center; padding: 50px; position: relative; border-radius: 20px; height: auto; box-sizing: border-box; margin-top: 30px; margin-bottom: 80px;">
             <div style="margin-bottom: 50px;" >
                 <img src="photo_2023-05-26_17-34-36.jpg" style="width: 120px; border-radius: 50%; background: #fff; height: 120px;">
                 <h3 style="margin-top: 50px;">Nahom Zewge</h3>
@@ -328,7 +354,7 @@
         <br></br>
         <style>
           .progress-container {
-              width: 50%; /* Adjust based on your design */
+              width: 60%; /* Adjust based on your design */
               margin: auto;
               padding: 20px;
               font-family: 'Quicksand', sans-serif;
