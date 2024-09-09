@@ -31,8 +31,8 @@
         }
 
     .profile-box img {
-      width: 120px;
-      height: 120px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
     }
     .navbar {
@@ -44,7 +44,7 @@
       object-fit: cover;
     }
     .card{
-      background-color:#738a6e9a ;
+      background-color:#6e8a7c6c ;
       color: #fff;
       
     }
@@ -78,10 +78,12 @@
     align-items: center;
     margin-bottom: 50px;
 }
+
 @media (max-width: 768px) {
                     .container.mt5 {
                       flex-direction: column; /* Stack items vertically on small screens */
                       align-items: center;
+                      
                     }
         
                     .main-content {
@@ -89,6 +91,7 @@
                         margin-bottom: 20px; /* Space below text */
                        /* Center text */
                         width: 100%; /* Full width on mobile */
+                        
                     }
         
                     .profile-box {
@@ -134,48 +137,95 @@
               </ul>
             </div>
         </nav>
-        <div class="container mt-5 d-flex" style="flex-wrap: wrap; margin-bottom: 50px;">
-            <!-- Profile Box Section -->
-             
-            
-            <div class="profile-box text-light d-flex justify-content-center align-items-center" 
-            style="max-width: 80%; height: min-content;flex-direction: column; background-color: #3e5a3556; text-align: center; padding: 50px;  border-radius: 20px; height: auto; box-sizing: border-box;  margin-top: 30px; margin-bottom: 80px;">
-            <div style="margin-bottom: 50px;" >
-                <img src="photo_2023-05-26_17-34-36.jpg" style="width: 120px; border-radius: 50%; background: #fff; height: 120px;">
-                <h3 style="margin-top: 50px;">Nahom Zewge</h3>
-                <p>3D Animator</p>
-                <p>Computer Science Student</p>
-                <div class="social-media"></div>
+        <div class="container mt-5 d-flex" style="width: 100%; flex-wrap: wrap; margin-bottom: 50px;">
+          <!-- Profile Box Section -->
+          <div class="profile-box text-light d-flex justify-content-center align-items-center g-col-6" 
+          style="flex: 0 0 30%; max-width: 30%; flex-direction: column; background-color: #3e5a3556; text-align: center; padding: 50px;  border-radius: 20px; height: auto; box-sizing: border-box; margin-top: 30px; margin-bottom: 80px;">
+              <div style="margin-bottom: 50px;">
+                <a href="the rock.jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="photo_2023-05-26_17-34-36.jpg" style="width: 100px; border-radius: 50%; background: #fff; height: 100px; object-fit: cover;"></a>
+                  <h3 style="margin-top: 50px;">Nahom Zewge</h3>
+                  <p>3D Animator</p>
+                  <p>Computer Science Student</p>
+                  <div class="social-media"></div>
               </div>
-            </div>
-        
-            <!-- Main Content Section -->
-            <div class="main-content text-light d-flex  align-items-center "
-       style="width: 100%; flex: 0 0 65%; max-width: 60%; padding: 50px;padding-left: 7%;  box-sizing: border-box;margin-bottom: 90px; margin-left: 70px;">
-    <div >
-                <h1 class="anton-regular" style="padding-right: 20%; "              
-                >HELLO EVERYONE</h1>
-                <p style="color: #fff; font-size: 14px; line-height: 1.6;font-family: 'Quicksand', serif;
-                
- font-weight: 300;">
-                  <strong style="font-size: 20px;">Hi, I'm Nahom Zewge!</strong>
-                  I am currently studying <strong>Computer Science</strong> at <strong>American College of Technology</strong> and am also passionate about <strong>3D Animation</strong>. I work well independently and thrive in collaborative environments.
-                  I'm looking to contribute to <strong>web development</strong> and <strong>3D animation</strong> projects using my skills. Feel free to reach out to me via email at 
-                  <a href="mailto:nahomzewge32@gmail.com" style="color: #77c977; font-weight: 500; text-decoration: none; transition: color 0.3s;">nahomzewge32@gmail.com</a>.
-                  I look forward to hearing from you!
-              </p>
-                <div class="button">
-                  <button type="button" class="btn btn-light">
-                    <a href="#scrollspyHeading3" style="color: black;">Projects</a>
-                  </button>
-                  <button type="button" class="btn btn-outline-light">
-                    <a href="#scrollspyHeading2" style="color: black;">About Me</a>
-                  </button>
-                </div>
+          </div>
+      
+          <!-- Main Content Section -->
+          <div class="main-content text-light d-flex align-items-center"
+              style="flex: 0 0 65%; max-width: 65%; padding: 50px; box-sizing: border-box; margin-bottom: 90px; margin-left: auto;">
+              <div>
+                  <h1 class="anton-regular" style="padding-right: 10%;">HELLO EVERYONE</h1>
+                  <p style="color: #fff; font-size: 14px; line-height: 1.6; font-family: 'Quicksand', serif; font-weight: 300;">
+                      <strong style="font-size: 20px;">Hi, I'm Nahom Zewge!</strong> I am currently studying <strong>Computer Science</strong> at <strong>American College of Technology</strong> and am also passionate about <strong>3D Animation</strong>. I work well independently and thrive in collaborative environments. I'm looking to contribute to <strong>web development</strong> and <strong>3D animation</strong> projects using my skills. Feel free to reach out to me via email at
+                      <a href="mailto:nahomzewge32@gmail.com" style="color: #77c977; font-weight: 500; text-decoration: none; transition: color 0.3s;">nahomzewge32@gmail.com</a>. I look forward to hearing from you!
+                  </p>
+                  <div class="button">
+                      <button type="button" class="btn btn-light">
+                          <a href="#scrollspyHeading3" style="color: black;">Projects</a>
+                      </button>
+                      <button type="button" class="btn btn-outline-light">
+                          <a href="#scrollspyHeading2" style="color: black;">About Me</a>
+                      </button>
+                  </div>
               </div>
-            </div>
-         
-        </div>
+          </div>
+      </div>
+      
+      <!-- CSS: Media Queries for Responsiveness and Proportional Height -->
+      <style>
+        /* Default layout for larger screens */
+        .profile-box {
+            flex: 0 0 30%;
+            max-width: 30%;
+        }
+      
+        .main-content {
+            flex: 0 0 65%;
+            max-width: 65%;
+        }
+      
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .profile-box {
+                flex: 0 0 100%;
+                max-width: 100%;
+                margin-bottom: 20px;
+                padding: 30px;
+                aspect-ratio: 1 / 1; /* Force the profile box to have a square aspect ratio */
+            }
+      
+            .main-content {
+                flex: 0 0 100%;
+                max-width: 100%;
+                padding: 30px;
+            }
+      
+            .profile-box img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+      
+        @media (max-width: 576px) {
+            .profile-box {
+                padding: 20px;
+                aspect-ratio: 1 / 1; /* Keep a square box */
+            }
+      
+            .profile-box img {
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+            }
+      
+            .main-content {
+                padding: 20px;
+            }
+        }
+      </style>
+      
             <style>
                 /* Flexbox container style */
                 .container-1 {
@@ -214,7 +264,7 @@
                     .text-content {
                         margin-right: 0; /* Remove right margin */
                         margin-bottom: 20px; /* Space below text */
-                        text-align: center; /* Center text */
+                         /* Center text */
                         width: 100%; /* Full width on mobile */
                     }
         
@@ -251,12 +301,12 @@
         
       
         <div class="p-3 text-light" id="scrollspyHeading3" style="background-color: rgb(9, 14, 13);">
-          <h1 class="anton-regular" style="  margin-left: 20px; margin-top: 5%; margin-bottom: 5%;">Projects</h1>
+          <h1 class="anton-regular" style="  margin-left: 20px; margin-top: 5%; margin-bottom: 5%;">Sample Project Gallary</h1>
           <br></br>
           <div class="clearfix">
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="row row-cols-2 row-cols-md-4 g-4">
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new22(2).jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new22(2).jpg" class="card-img-top" alt="3D Render">
                 </a>
@@ -267,7 +317,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new9(1).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new9(1).png" class="card-img-top" alt="3D Render">
                 </a>
@@ -280,7 +330,7 @@
               </div>
               
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new62.png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new62.png" class="card-img-top" alt="3D Render">
                 </a>
@@ -294,7 +344,7 @@
              
               
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new19(2).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new19(2).png" class="card-img-top" alt="3D Render">
                 </a>
@@ -305,7 +355,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new13.png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new13.png" class="card-img-top" alt="3D Render">
                 </a>
@@ -316,7 +366,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new10(1).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new10(1).png" class="card-img-top" alt="3D Render">
                 </a>
@@ -328,7 +378,7 @@
               </div>
              
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                     <!-- Link to the full-size image -->
                     <a href="new88(1).jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
                         <img src="new88(1).jpg" class="card-img-top" alt="3D Render">
@@ -343,13 +393,115 @@
             </div>
             
               <div class="col">
-                <div class="card">
+                <div class="card border-success">
                   <a href="new27(2).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
                     <img src="new27(2).png" class="card-img-top" alt="3D Render">
                 </a>
                   <div class="card-body"style="height:6rem;">
                     <center><h5 class="card-title">My Render</h5>
                     <p class="card-text">3D Render Using Blender</p></center>
+                  </div>
+                </div>
+              </div>
+            
+            <div class="col">
+              <div class="card border-success">
+                <a href="new74(1).jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="new74(1).jpg" class="card-img-top" alt="3D Render">
+              </a>
+                <div class="card-body"style="height:6rem;">
+                  <center><h5 class="card-title">My Render</h5>
+                  <p class="card-text">3D Render Using Blender</p></center>
+                
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-success">
+                <a href="new321.png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="new321.png" class="card-img-top" alt="3D Render">
+              </a>
+                <div class="card-body"style="height:6rem;">
+                  <center><h5 class="card-title">My Render</h5>
+                  <p class="card-text">3D Render Using Blender</p></center>
+                
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-success">
+                <a href="new79(1).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="new79(1).png" class="card-img-top" alt="3D Render">
+              </a>
+                <div class="card-body"style="height:6rem;">
+                  <center><h5 class="card-title">My Render</h5>
+                  <p class="card-text">3D Render Using Blender</p></center>
+                
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-success">
+                <a href="IMG_20240503_205519_649.jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="IMG_20240503_205519_649.jpg" class="card-img-top" alt="3D Render">
+              </a>
+                <div class="card-body"style="height:6rem;">
+                  <center><h5 class="card-title">My Render</h5>
+                  <p class="card-text">3D Render Using Blender</p></center>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <br></br><br></br>
+            <div class="card border-success mb-3" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="0405(2).mp4" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <video src="0405(2).mp4"  class="img-fluid rounded-start" alt="...">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Derese Kids Song</h5>
+                    <p class="card-text">I created the animation for the Derese Kids song using Blender, where I animated seven unique characters. The character designs were a collaborative effort with Frezer Assefa, while the environment design was crafted by Natenael Ayellegne.</p>
+                    <p class="card-text"><small class="text-body-secondary">Made with Blender</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="gobez.mp4" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <img src="gobezthumb.png"  class="img-fluid rounded-start" style="width: 100%;height: 98%;" alt="...">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Gobez Mobile Application Advertisement</h5>
+                    <p class="card-text">I created this animation for the Gobez Mobile Application using Blender, where I animated the main character.The environment design was created by Natenael Ayellegne.</p>
+                    <p class="card-text"><small class="text-body-secondary">Made with Blender</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="0903(2).mp4" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                  <video src="0903(2).mp4"  class="img-fluid rounded-start" style="width: 40%;height: 98%;" alt="...">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">TikTok Social Media Advertisement</h5>
+                    <p class="card-text">I created this animation for the Abir General Mirror And Frame Work using Blender, where I Model everything that is shown in the videi.</p>
+                    <p class="card-text"><small class="text-body-secondary">Made with Blender</small></p>
                   </div>
                 </div>
               </div>
@@ -360,7 +512,7 @@
         <br></br>
         <style>
           .progress-container {
-              width: 60%; /* Adjust based on your design */
+              width: 70%; /* Adjust based on your design */
               margin: auto;
               padding: 20px;
               font-family: 'Quicksand', sans-serif;
@@ -413,8 +565,7 @@
               background-color: #dc3545;
           }
       </style>
-  </head>
-  <body>
+ 
   
   <div class="progress-container">
       <div class="progress-bar-container">
@@ -455,14 +606,14 @@
       <div class="progress-bar-container">
           <div class="progress-label">Java</div>
           <div class="progress">
-              <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+              <div class="progress-bar bg-success" style="width: 80%">80%</div>
           </div>
       </div>
   
       <div class="progress-bar-container">
           <div class="progress-label">3D Animation</div>
           <div class="progress">
-              <div class="progress-bar bg-success" style="width: 100%">100%</div>
+              <div class="progress-bar bg-success" style="width: 80%">80%</div>
           </div>
       </div>
   
@@ -489,10 +640,10 @@
         <br></br><br></br>
         <nav class="navbar navbar-expand-lg">
           
-              &copy; Copyright <strong><span style="padding: 0 0 0 50;">Portfolio</span></strong>. All Rights Reserved
+              <center>&copy; Copyright <strong><span style="padding: 0 0 0 50;"></span></strong>. All Rights Reserved
             
              
-              <a>Designed by Nahom Zewge</a>
+              <a>Designed by Nahom Zewge</a></center>
             </div>
           
             
