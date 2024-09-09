@@ -4,20 +4,86 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Lightbox2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Handjet:wght@100..900&family=Protest+Guerrilla&display=swap');
+      </style>
+  <style>
+   body {
+            background-image: url('new62.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: rgb(9, 14, 13);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+        }
+
+    .profile-box img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+    }
+    .navbar {
+      background-color: #1c1f1dbd;
+      color: #EFEFEF;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card{
+      background-color:#738a6e9a ;
+      color: #fff;
+      
+    }
+    .progress-bar {
+      text-align: left;
+      padding-left: 10px;
+    }
+    .contact-form {
+      box-shadow: 20px 20px 50px;
+      border-radius: 15px;
+      background: rgba(41, 88, 85, 0.397);
+      backdrop-filter: blur(10px);
+      padding: 20px;
+    }
+    
+
+    .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+  </style>
   </head>
-  <body background="new62.png" style="background-repeat: no-repeat;background-size: 100%;" style="width: 100%;height: 100vh;background-size: cover;background-position: center;display: flex; align-items: center; justify-content: center;">
-    <nav class="navbar navbar-expand-lg" style="background-color:rgba(26, 34, 31, 0.842)">
+  <body>
+    
+    <nav class="navbar navbar-expand-lg">
       
         <div class="container ">
-            <a class="navbar-brand text-light" href="#">
-              <img src="new14.png" alt="nahom's photo" height="30"style="width: 30px; border-radius:50%;">
+            <a class="navbar-brand text-light" href="#" style="font-family: 'Playfair Display', sans-serif;
+">
+              <img src="photo_2023-05-26_17-34-36.jpg" alt="nahom's photo" height="30"style="width: 30px; border-radius:50%;">
           Nahom Zewge
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="font-family: 'Quicksand', serif;
+">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
@@ -37,65 +103,158 @@
               </ul>
             </div>
         </nav>
-        <div class="container"style="padding: 120px 10px;">
-        <div class="row g-0 text-center" >
-          <div class="col-sm-6 col-md-4">
-            <div class="col-sm-3">
-              <div class="profile-box text-light"style="width:20rem; background-color:rgba(21, 189, 147, 0.575); text-align:center;padding: 90px 90px; position: relative;border-radius:20px;height:30rem ;">
-               <img src="photo_2023-05-26_17-34-36.jpg"style="width: 150px; border-radius:50%; backgroud: #fff;height: 150px;">
-               <h3>Nahom Zewge</h3>
-               <p>3D Animator</p>
-               <p>Computer Science Student</p>
-               <div class="social-media"></div>
+        <div class="container mt-5 d-flex" style="flex-wrap: wrap; margin-bottom: 50px;">
+            <!-- Profile Box Section -->
+             
+            
+            <div class="profile-box text-light d-flex justify-content-center align-items-center" 
+            style="width: 100%;height: min-content;flex: 0 0 35%; max-width: 30%;flex-direction: column; background-color: #3e5a35; text-align: center; padding: 50px; position: relative; border-radius: 20px; height: auto; box-sizing: border-box; margin-top: 30px; margin-bottom: 80px;">
+            <div style="margin-bottom: 50px;" >
+                <img src="photo_2023-05-26_17-34-36.jpg" style="width: 120px; border-radius: 50%; background: #fff; height: 120px;">
+                <h3 style="margin-top: 50px;">Nahom Zewge</h3>
+                <p>3D Animator</p>
+                <p>Computer Science Student</p>
+                <div class="social-media"></div>
               </div>
-             </div>
-          </div>
-          <div class="col-6 col-md-8 text-light"style="padding: 100px 0px;"><h1 style="padding-right: 50%">HELLO EVERYONE</h1><p>My name is Nahom Zewge,I am currently studying computer science at American college of technology.And also i'm 3D Animator; I would describe myself as someone who is work by myself. I would like to put these characteristics to use to be able to make a valuable contribution to you in the position of Web developer and 3d animation.I would like to further explain my motivation for the position of 3d modeling and animation during a personal meeting. You can reach me by email via nahomzewge32@gmail.com. Thank you for your consideration. look forward to hearing from you.</p>
-            <div class="button"><button type="button" class="btn btn-light"><a href="#scrollspyHeading3" style="color: black;">Projects</a></button>
-              <button type="button" class="btn btn-outline-light" ><a href="#scrollspyHeading2" style="color: black;">About Me</a></button><br></br></div>
-          </div>
-        </div>
-      </div>
-      <div class="p-3 text-light bg-dark border border-dark blue "id="scrollspyHeading2">
-        <h1>About me</h1>
-        <br></br>
-        <div class="clearfix">
-          
+            </div>
         
-          <p>My name is Nahom Zewge,I am currently studying computer science at American college of technology.And also i'm 3D Animator, I would describe myself as someone who is work by myself. You can reach me by email via nahomzewge32@gmail.com. Thank you for your consideration. look forward to hearing from you.</h2>
-        </p>
-      
+            <!-- Main Content Section -->
+            <div class="main-content text-light d-flex justify-content-center align-items-center"
+       style="width: 100%; flex: 0 0 65%; max-width: 60%; padding: 50px;padding-left: 7%;  box-sizing: border-box;margin-bottom: 90px; margin-left: 70px;">
+    <div >
+                <h1 class="anton-regular" style="padding-right: 20%; "              
+                >HELLO EVERYONE</h1>
+                <p style="color: #fff; font-size: 14px; line-height: 1.6;font-family: 'Quicksand', serif;
+                
+ font-weight: 300;">
+                  <strong style="font-size: 20px;">Hi, I'm Nahom Zewge!</strong>
+                  I am currently studying <strong>Computer Science</strong> at <strong>American College of Technology</strong> and am also passionate about <strong>3D Animation</strong>. I work well independently and thrive in collaborative environments.
+                  I'm looking to contribute to <strong>web development</strong> and <strong>3D animation</strong> projects using my skills. Feel free to reach out to me via email at 
+                  <a href="mailto:nahomzewge32@gmail.com" style="color: #77c977; font-weight: 500; text-decoration: none; transition: color 0.3s;">nahomzewge32@gmail.com</a>.
+                  I look forward to hearing from you!
+              </p>
+                <div class="button">
+                  <button type="button" class="btn btn-light">
+                    <a href="#scrollspyHeading3" style="color: black;">Projects</a>
+                  </button>
+                  <button type="button" class="btn btn-outline-light">
+                    <a href="#scrollspyHeading2" style="color: black;">About Me</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+         
         </div>
-        <div class="p-3 text-light bg-dark border border-dark blue " id="scrollspyHeading3">
-          <h1>Projects</h1>
+            <style>
+                /* Flexbox container style */
+                .container-1 {
+                    display: flex;
+                    align-items: flex-start; /* Align items at the top */
+                    margin-left: 20px;
+                    font-family: 'Quicksand';
+                    width: 100%;
+                   
+                    /* Ensure items don’t shrink or grow */
+                }
+        
+                /* Text content style */
+                .text-content {
+                    flex: 0 0 75%; /* 60% width for text */
+                    margin-right: 40px; 
+                    margin-top: 5%;
+                    /* Space between text and image */
+                }
+        
+                /* Image content style */
+                .image-content {
+                    flex: 0 0 25%;
+                    
+                    /* 40% width for image */
+                }
+        
+                /* Responsive design for smaller screens */
+                @media (max-width: 768px) {
+                    .container-1 {
+                        flex-direction: column; /* Stack items vertically on small screens */
+                        align-items: center; /* Center items */
+                    }
+        
+                    .text-content {
+                        margin-right: 0; /* Remove right margin */
+                        margin-bottom: 20px; /* Space below text */
+                        text-align: center; /* Center text */
+                        width: 100%; /* Full width on mobile */
+                    }
+        
+                    .image-content {
+                        width: 100%; /* Full width on mobile */
+                        text-align: center; /* Center image */
+                        margin-left: 10%;
+                    }
+                }
+            </style>
+        
+        <div class="p-3 text-light" id="scrollspyHeading2" style="background-color: rgb(8, 14, 12);  ">
+            <h1 class="anton-regular" style=" margin-left: 20px; margin-top: 7%;">About Me</h1>
+            <br><br>
+            <div class="container container-1">
+                <div class="text-content">
+                    <p>
+                        Hi, I'm Nahom Zewge, a passionate computer science student at the American College of Technology with a love for 3D animation. Alongside my studies, I work as a freelance 3D Animator, where I transform ideas and stories into visually captivating animations.
+                    </p>
+                    <p>
+                        I thrive on independent work, continuous learning, and overcoming challenges. My blend of technical skills in web development and creative prowess in 3D animation enables me to contribute to innovative and diverse projects. I'm always eager to collaborate on exciting ventures that push creative boundaries and explore new opportunities.
+                    </p>
+                    <p>
+                        Feel free to reach out to me at <a href="mailto:nahomzewge32@gmail.com" style="color: #97fc97; font-weight: 500; text-decoration: none; transition: color 0.3s;">nahomzewge32@gmail.com</a>. I look forward to connecting and exploring new possibilities together!
+                    </p>
+                </div>
+                <div class="image-content">
+                    <img src="new82(2).png" alt="Profile Picture" style="max-width: 80%; height: 50%; border-radius: 8px;">
+                </div>
+            </div>
+        </div>
+        
+       
+        
+      
+        <div class="p-3 text-light" id="scrollspyHeading3" style="background-color: rgb(9, 14, 13);">
+          <h1 class="anton-regular" style="  margin-left: 20px; margin-top: 5%; margin-bottom: 5%;">Projects</h1>
           <br></br>
           <div class="clearfix">
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card">
-                  <img src="new22(2).png" class="card-img-top" alt="...">
+                  <a href="new22(2).jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new22(2).jpg" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="new9(1).png" class="card-img-top" alt="...">
+                  <a href="new9(1).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new9(1).png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
+                  
                   </div>
                 </div>
               </div>
               
               <div class="col">
                 <div class="card">
-                  <img src="new62.png" class="card-img-top" alt="...">
+                  <a href="new62.png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new62.png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
@@ -104,47 +263,61 @@
               
               <div class="col">
                 <div class="card">
-                  <img src="new13.png" class="card-img-top" alt="...">
+                  <a href="new19(2).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new19(2).png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                   <center> <h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="new19(2).png" class="card-img-top" alt="...">
+                  <a href="new13.png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new13.png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="new10(1).png" class="card-img-top" alt="...">
+                  <a href="new10(1).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new10(1).png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
              
               <div class="col">
                 <div class="card">
-                  <img src="new14.png" class="card-img-top" alt="...">
-                  <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
-                  </div>
+                    <!-- Link to the full-size image -->
+                    <a href="new88(1).jpg" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                        <img src="new88(1).jpg" class="card-img-top" alt="3D Render">
+                    </a>
+                    <div class="card-body" style="height:6rem;">
+                        <center>
+                            <h5 class="card-title">My Render</h5>
+                            <p class="card-text">3D Render Using Blender</p>
+                        </center>
+                    </div>
                 </div>
-              </div>
+            </div>
+            
               <div class="col">
                 <div class="card">
-                  <img src="new27(2).png" class="card-img-top" alt="...">
+                  <a href="new27(2).png" data-lightbox="myGallery" data-title="3D Render Using Blender">
+                    <img src="new27(2).png" class="card-img-top" alt="3D Render">
+                </a>
                   <div class="card-body"style="height:6rem;">
-                    <h5 class="card-title">My Render</h5>
-                    <p class="card-text">3D Render Using Blender</p>
+                    <center><h5 class="card-title">My Render</h5>
+                    <p class="card-text">3D Render Using Blender</p></center>
                   </div>
                 </div>
               </div>
@@ -153,53 +326,136 @@
             </div>
             <CENTER><h1 id="scrollspyHeading5">MY SKILLS</h1></CENTER>
         <br></br>
-            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-success" style="width: 90%">HTML</div>
-            </div>
+        <style>
+          .progress-container {
+              width: 50%; /* Adjust based on your design */
+              margin: auto;
+              padding: 20px;
+              font-family: 'Quicksand', sans-serif;
+          }
+  
+          .progress-bar-container {
+              margin-bottom: 20px; /* Space between each progress bar */
+          }
+  
+          .progress-label {
+              font-weight: 600;
+              margin-bottom: 5px;
+              font-size: 1.1em;
+              color: #fff;
+          }
+  
+          .progress {
+              background-color: #2d2d2d; /* Dark background for progress bar track */
+              border-radius: 20px;
+              height: 25px;
+              overflow: hidden;
+              position: relative;
+          }
+  
+          .progress-bar {
+              border-radius: 20px;
+              height: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: white;
+              font-weight: 500;
+              font-size: 0.9em;
+          }
+  
+          .progress-bar.bg-success {
+              background-color: #28a745;
+          }
+  
+          .progress-bar.bg-info {
+              background-color: #17a2b8;
+          }
+  
+          .progress-bar.bg-warning {
+              background-color: #ffc107;
+              color: #212529;
+          }
+  
+          .progress-bar.bg-danger {
+              background-color: #dc3545;
+          }
+      </style>
+  </head>
+  <body>
+  
+  <div class="progress-container">
+      <div class="progress-bar-container">
+          <div class="progress-label">HTML</div>
+          <div class="progress">
+              <div class="progress-bar bg-success" style="width: 100%">100%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">CSS</div>
+          <div class="progress">
+              <div class="progress-bar bg-info" style="width: 85%">85%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">JavaScript</div>
+          <div class="progress">
+              <div class="progress-bar bg-warning" style="width: 75%">75%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">Python</div>
+          <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 70%">70%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">C++</div>
+          <div class="progress">
+              <div class="progress-bar bg-info" style="width: 70%">70%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">Java</div>
+          <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 80%">80%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">3D Animation</div>
+          <div class="progress">
+              <div class="progress-bar bg-success" style="width: 100%">100%</div>
+          </div>
+      </div>
+  
+      <div class="progress-bar-container">
+          <div class="progress-label">3D Modeling</div>
+          <div class="progress">
+              <div class="progress-bar bg-success" style="width: 95%">95%</div>
+          </div>
+      </div>
+  </div>
             <br></br>
-            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-info text-dark" style="width: 85%">CSS</div>
-            </div>
-            <br></br>
-            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-warning text-dark" style="width: 75%">JAVASCRIPT</div>
-            </div>
-            <br></br>
-            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-danger" style="width: 70%">PYTHON</div>
-            </div>
-            <br></br>
-            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-info" style="width: 70%">C++</div>
-            </div>
-            <br></br>
-            
-            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-danger" style="width: 80%">JAVA</div>
-            </div>
-            <br></br>
-            
-            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-success" style="width: 100%">3D ANIMATION</div>
-            </div>
-            <br></br>
-            <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar bg-success" style="width: 95%">3D MODELING</div>
-            </div>
-            <br></br>
-          <div class="container" id="scrollspyHeading4">
-            <form style="height: 670px;width: 400px; display: flex; justify-content: center; box-shadow: 20px 20px 50px; border-radius: 15px; background: rgba(41, 88, 85, 0.397); backdrop-filter: blur(10px); flex-wrap: wrap;height: 500px;">
-              <h1 style="color:white; font-weight: 500px; margin-top: 20px; width: 500px; text-align: center;">Contact Us</h1>
-            <input type="text" id="First Name" placeholder="First Name" required style="width: 290px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
-            <input type="text" id="Last Name" placeholder="Last Name" required style="width: 290px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
-            <input type="text" id="Email" placeholder="Email" required style="width: 290px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
-            <center><h4 style="color: white; font-weight:300 ; width: 600px; margin-top: 20px;">Type Your Message Here..</h4></center>
-            <textarea required style="background: none; border: none; border-bottom: 2px solid white; color: white; font-weight: 200; font-size: 15px; padding: 10px; outline: none; min-width: 300px; max-width: 300px; min-height: 80px; max-height: 80px;"></textarea>
-            <input type="submit" value="Send" id="button" style="border: none; background: rgb(255, 255, 255); border-radius: 5px; margin-top: 20px; font-weight: 600; font-size: 20px; width: 300px; padding: 0; margin-right: 50px; margin-bottom: 30px; transition:0.3s">
-            </form>
+          <div class="container-2 text-center p-4" id="scrollspyHeading4">
+            <form style="display: flex; flex-direction: column; align-items: center; box-shadow: 5px 10px 50px #738A6E; border-radius: 15px; background:#5881578f; backdrop-filter: blur(20px); padding: 20px; width: 100%; max-width: 500px; margin: auto;">
+              <h1 style="color: white; font-weight: 500; margin-top: 0; text-align: center;">Contact Me</h1>
+              <input type="text" id="FirstName" placeholder="First Name" required style="width: 100%; max-width: 400px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
+              <input type="text" id="LastName" placeholder="Last Name" required style="width: 100%; max-width: 400px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
+              <input type="email" id="Email" placeholder="Email" required style="width: 100%; max-width: 400px; height: 40px; padding-left: 10px; outline: none; border: none; font-size: 15px; margin-bottom: 10px; background: none; border-bottom: 2px solid white;">
+              <h4 style="color: white; font-weight: 300; width: 100%; max-width: 400px; text-align: center; margin-top: 20px;">Type Your Message Here..</h4>
+              <textarea required style="width: 100%; max-width: 400px; min-height: 80px; padding: 10px; background: none; border: none; border-bottom: 2px solid white; color: white; font-size: 15px; outline: none; resize: vertical;"></textarea>
+              <input type="submit" value="Send" id="button" style="border: none; background: rgb(255, 255, 255); border-radius: 5px; margin-top: 20px; font-weight: 600; font-size: 20px; width: 100%; max-width: 400px; padding: 10px; cursor: pointer; transition: background-color 0.3s;">
+          </form>
+          
           </div>
         <br></br><br></br>
-          <div class="navbar navbar-expand-lg" style="background-color:rgba(26, 34, 31, 0.842);"></nav>
+        <nav class="navbar navbar-expand-lg">
           
               &copy; Copyright <strong><span style="padding: 0 0 0 50;">Portfolio</span></strong>. All Rights Reserved
             
@@ -211,5 +467,8 @@
     
           
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   </body>
 </html>
