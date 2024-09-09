@@ -72,12 +72,16 @@
                     margin-left: 10px;
                     font-family: 'Quicksand';
                     width: 100%;
-                   
+                    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distributes space evenly on larger screens */
+    align-items: center;
+    margin-bottom: 50px;
 }
 @media (max-width: 768px) {
                     .container.mt5 {
-                        flex-direction: column; /* Stack items vertically on small screens */
-                        align-items: center; /* Center items */
+                      flex-direction: column; /* Stack items vertically on small screens */
+                      align-items: center;
                     }
         
                     .main-content {
@@ -88,9 +92,9 @@
                     }
         
                     .profile-box {
-                        width: 100%; /* Full width on mobile */
+                        width: 80%; /* Full width on mobile */
                         text-align: center; 
-                       margin-left: 10%;/* Center image */
+                        margin: 0 auto 20px auto;/* Center image */
                         
                     }
                 }
@@ -135,7 +139,7 @@
              
             
             <div class="profile-box text-light d-flex justify-content-center align-items-center" 
-            style="height: min-content;flex-direction: column; background-color: #3e5a35; text-align: center; padding: 50px; position: relative; border-radius: 20px; height: auto; box-sizing: border-box; margin-top: 30px; margin-bottom: 80px;">
+            style="max-width: 80%; height: min-content;flex-direction: column; background-color: #3e5a35; text-align: center; padding: 50px;  border-radius: 20px; height: auto; box-sizing: border-box;  margin-top: 30px; margin-bottom: 80px;">
             <div style="margin-bottom: 50px;" >
                 <img src="photo_2023-05-26_17-34-36.jpg" style="width: 120px; border-radius: 50%; background: #fff; height: 120px;">
                 <h3 style="margin-top: 50px;">Nahom Zewge</h3>
@@ -146,7 +150,7 @@
             </div>
         
             <!-- Main Content Section -->
-            <div class="main-content text-light d-flex justify-content-center align-items-center"
+            <div class="main-content text-light d-flex  align-items-center "
        style="width: 100%; flex: 0 0 65%; max-width: 60%; padding: 50px;padding-left: 7%;  box-sizing: border-box;margin-bottom: 90px; margin-left: 70px;">
     <div >
                 <h1 class="anton-regular" style="padding-right: 20%; "              
